@@ -1,10 +1,10 @@
-# 📄 Requirements analysis
+# Requirements analysis
 
 ---
 
 ## Purpose
 
-Assess the Test Basis to find:
+Assess the test basis to find:
 
 - Ambiguities
 - Inconsistencies

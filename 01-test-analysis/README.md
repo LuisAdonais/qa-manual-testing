@@ -1,4 +1,4 @@
-# 🧪 Test analysis
+# Test analysis
 
 ---
 

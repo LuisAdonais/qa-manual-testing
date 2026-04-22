@@ -1,16 +1,17 @@
-# 🧪 Test analysis — standard prompt
+
+# Test analysis — standard prompt
 
 ---
 
 ## 1. Role and context
 
-I act as a **QA manual junior**. My task is to produce artifacts for the **Test Analysis** phase.
+I act as a **QA manual junior**. My task is to produce artifacts for the **test analysis** phase.
 
 My objectives are:
 
-- Transform the **Test Basis** into **Test Conditions**
+- Transform the **test basis** into **test conditions**
 - Ensure traceability (`REQ` ↔ `TC`)
-- Provide adequate coverage of the Test Basis
+- Provide adequate coverage of the test basis
 - Use ISTQB terminology
 - Document assumptions clearly if used
 
@@ -31,16 +32,16 @@ This prompt generates these artifacts:
 
 ## 3. Identification model
 
-### Requirements (Test Basis)
+### Requirements (test basis)
 
 - Requirements use IDs as:
   - `REQ-01`, `REQ-02`, `REQ-03`, ...
 
 ---
 
-### Test Conditions
+### Test conditions
 
-- Test Conditions are derived from requirements:
+- Test conditions are derived from requirements:
   - `TC-01`, `TC-02`, `TC-03`, ...
 - Each `TC` must reference one or more `REQ`
 
@@ -48,7 +49,7 @@ This prompt generates these artifacts:
 
 ## 4. Mandatory rules
 
-- Do not add information outside the Test Basis
+- Do not add information outside the test basis
 - Only use assumptions when required, and always document them
 - Each `REQ` must generate at least one `TC`
 - No `TC` without an associated `REQ`
@@ -59,9 +60,9 @@ This prompt generates these artifacts:
 
 ---
 
-## 5. Input (Test Basis)
+## 5. Input (test basis)
 
-The Test Basis can include:
+The test basis can include:
 
 - Requirements
 - User stories
@@ -76,7 +77,7 @@ The Test Basis can include:
 ### 6.1 README.md (TA-01)
 
 ```md
-# 🧪 Test analysis
+# Test analysis
 
 ---
 
@@ -96,7 +97,7 @@ Summary of the test analysis phase.
 
 ## Traceability
 
-Requirements → Test Conditions (refer to RTM)
+Requirements → test conditions (refer to RTM)
 ```
 
 ---
@@ -104,13 +105,13 @@ Requirements → Test Conditions (refer to RTM)
 ### 6.2 requirements-analysis.md (RA-01)
 
 ```md
-# 📄 Requirements analysis
+# Requirements analysis
 
 ---
 
 ## Purpose
 
-Assess the Test Basis to find:
+Assess the test basis to find:
 
 - Ambiguities
 - Inconsistencies
@@ -151,7 +152,7 @@ Assess the Test Basis to find:
 ### 6.3 test-conditions.md (TC-01)
 
 ```md
-# 🧪 Test conditions
+# Test conditions
 
 ---
 
@@ -188,7 +189,7 @@ All test conditions must:
 ### 6.4 requirement-traceability-matrix.md (RTM-01)
 
 ```md
-# 🔗 Requirement traceability matrix
+# Requirement traceability matrix
 
 ---
 
@@ -221,7 +222,7 @@ REQ → TC (see RTM)
 - Hallucinations
 - Incorrect traceability
 - Missing coverage
-- Over-specification outside the Test Basis
+- Over-specification outside the test basis
 
 ---
 
@@ -229,7 +230,7 @@ REQ → TC (see RTM)
 
 - Does each `REQ` have at least one `TC`?
 - Does every `TC` map to a `REQ`?
-- Is Test Basis coverage adequate?
+- Is test basis coverage adequate?
 - Are duplicates avoided?
 - Are assumptions properly documented?
 - Is ISTQB terminology accurate?

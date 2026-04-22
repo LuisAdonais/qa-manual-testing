@@ -1,4 +1,5 @@
-# 🔗 Requirement traceability matrix
+
+# Requirement traceability matrix
 
 ---
 
